@@ -15,7 +15,7 @@ $(function(){
 		"bottom":"10px"})
 		
 	//ページトップへ
-	miniNavi.append($('<div class="btn" id="mnGoPTop"><img src="/smp/topics/14valentine/img/smp_sub_pagetop.png" alt="ページトップへ" width="54"></div>')
+	miniNavi.append($('<div class="btn" id="mnGoPTop">ページトップへ</div>')
 		.click(function(){
 			var hash = ".navTop";
 			if(!hash || hash == "#")return false;
@@ -26,7 +26,7 @@ $(function(){
 
 
 	//コンテンツトップへ
-	miniNavi.append($('<div class="btn" id="mnSpaTop"><img src="/smp/topics/14valentine/img/smp_sub_saletop.png" alt="セールトップへ" width="54"></div>')
+	miniNavi.append($('<div class="btn" id="mnSpaTop">コンテンツトップへ/div>')
 		.click(function(){
 			window.location.href=spaTop;	
 	
