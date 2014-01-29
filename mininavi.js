@@ -1,10 +1,9 @@
 //ページ右下にページ・トップへをつける
 
-
-$(function(){
+$(document).ready(function(){
 
 	//右下ミニナビ
-	var spaTop="/";//今回のセールトップURL　トップのURLを入れる！
+	var spaTop="/";//今回のトップURL　トップのURLを入れる！
 	var miniNavi;	//mininami object 枠生成
 	miniNavi= $('<div id="miniNavi"></div>')
 		.css({"position":"fixed",
